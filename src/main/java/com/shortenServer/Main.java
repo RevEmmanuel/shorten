@@ -53,12 +53,12 @@ public class Main {
         logger.info("App started successfully!");
     }
 
-    @Bean
-    public void populateDb() {
-        String[] defaultRoles = {"USER", "ADMIN"};
-
-        for (String role : defaultRoles) {
-            roleService.createNewRole(role);
-        }
-    }
+//    @Bean
+//    public void populateDb() {
+//        String[] defaultRoles = {"USER", "ADMIN"};
+//
+//        for (String role : defaultRoles) {
+//            roleService.createNewRole(role);
+//        }
+//    }
 }
